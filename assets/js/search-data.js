@@ -444,8 +444,8 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/9_project/";
-            },},{id: "projects-prompting-with-in-context-learning-and-evaluation",
-          title: 'Prompting with In-Context Learning and Evaluation',
+            },},{id: "projects-prompting-with-in-context-learning",
+          title: 'Prompting with In-Context Learning',
           description: "Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/In_context_prompt/";
