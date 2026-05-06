@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Prompting with In-Context Learning and Evaluation
+title: Prompting with In-Context Learning
 description: Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.
 img: assets/img/k-shot_vs_accuracy.png
 importance: 1
@@ -16,7 +16,7 @@ This project explores the power and limitations of **In-Context Learning (ICL)**
 
 
 **Finding:**
-{% include figure.liquid path="assets/img/k-shot_vs_accuracy.png" title="K-shot vs Accuracy" class="img-fluid rounded z-depth-1" style="max-width: 600px; margin: auto; display: block;" %}
+{% include figure.liquid path="assets/img/k-shot_vs_accuracy.png" title="K-shot vs Accuracy" class="img-fluid rounded z-depth-1" style="max-width: 400px; margin: auto; display: block;" %}
 
 Under the zero-shot setting, the sentiment classification accuracy reached 82.5%. As more examples were added to the prompt context, the accuracy steadily increased. However, providing 16 examples (k=16) did not yield better performance compared to the k=8 setting, indicating a saturation point in the few-shot learning curve.
 
