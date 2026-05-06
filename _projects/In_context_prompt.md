@@ -2,7 +2,7 @@
 layout: page
 title: Prompting with In-Context Learning and Evaluation
 description: Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.
-img: assets/img/projects/assets/img/k-shot_vs_accuracy.png
+img: assets/img/k-shot_vs_accuracy.png
 importance: 1
 category: AI
 ---
