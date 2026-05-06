@@ -409,12 +409,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/4_project/";
-            },},{id: "projects-project-5",
+          section: "News",},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -439,11 +434,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/9_project/";
-            },},{id: "projects-app-version-update-impact-on-user-engagement-monetization-amp-retention",
-          title: 'App Version Update — Impact on User Engagement, Monetization &amp;amp; Retention',
+            },},{id: "projects-app-version-update-user-analysis",
+          title: 'App Version Update — User Analysis',
           description: "A multi-stage statistical analysis of a mobile app version update (S14) across four global markets, examining behavioral shifts, revenue attribution, and user retention.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/App%20Version%20Update%20Analysis/";
+            },},{id: "projects-austin-airbnb-price-amp-crime-rate-correlation",
+          title: 'Austin Airbnb Price &amp;amp; Crime Rate Correlation',
+          description: "Analyzing Airbnb listing price distributions in Austin, TX, predicting price determinants, and exploring the relationship between neighborhood crime rates and listing prices.",
+          section: "Projects",handler: () => {
+              window.location.href = "/jianlin.github.io/projects/Austin%20Airbnb%20Price%20/";
             },},{id: "projects-prompting-with-in-context-learning",
           title: 'Prompting with In-Context Learning',
           description: "Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.",
