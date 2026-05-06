@@ -409,12 +409,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -454,6 +449,11 @@ ninja.data = [{
           description: "Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/In_context_prompt/";
+            },},{id: "projects-training-and-probing-a-tiny-transformer",
+          title: 'Training-and-Probing-a-Tiny-Transformer',
+          description: "We build, train, and evaluate a minimal decoder-only Transformer from scratch using PyTorch. We will train this model on the Tiny Shakespeare dataset to generate Shakespeare-like text.",
+          section: "Projects",handler: () => {
+              window.location.href = "/jianlin.github.io/projects/Training-and-Probing-a-Tiny-Transformer/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
