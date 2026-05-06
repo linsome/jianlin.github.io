@@ -21,7 +21,7 @@ The map below visualizes listing price density across Austin in 3D — zoom, rot
 
 <div style="width: 100%; height: 500px; border-radius: 8px; overflow: hidden; margin: 1rem 0;">
   <iframe 
-    src="https://linsome.github.io/course-work/dallas_no_token_3d_map.html" 
+    src="https://linsome.github.io/Stats-220/dallas_no_token_3d_map.html" 
     width="100%" 
     height="500px" 
     style="border: none;"
