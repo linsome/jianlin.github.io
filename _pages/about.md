@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: ABOUT
 permalink: /
 subtitle: M.S. Statistics, University of California, Davis
 
