@@ -28,7 +28,7 @@ We applied a multi-stage statistical framework including Bootstrap resampling (3
 
 A one-size-fits-all update strategy is detrimental. We recommend a **bifurcated product roadmap**: rolling back S14 for engagement-driven markets (US/Germany) while fully deploying it in frequency-driven markets (India/Iraq).
 
-**Timeline:** Spring 2026 · **Team:** Jian Lin, Zinnia Zeng, Feini Pek
+**Timeline:** Spring 2026 
 
 <div class="links">
   <a href="https://github.com/Fei-p/Version-Update-Analysis" class="btn btn-sm z-depth-0" role="button" target="_blank">GitHub</a>
