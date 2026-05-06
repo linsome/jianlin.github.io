@@ -22,7 +22,7 @@ For each configuration, we tracked both **training loss** and **validation loss*
 
 ## Finding
 
-{% include figure.liquid path="assets/img/training-loss-curve.png" title="Training Loss Curve" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/training-loss-curve.png" title="Training Loss Curve" class="img-fluid rounded z-depth-1" style="max-width: 600px; margin: auto; display: block;" %}
 
 Model size (capacity) significantly improves language understanding and text coherence, producing sentences with improved fluency — at the cost of increased training time and computation.
 
