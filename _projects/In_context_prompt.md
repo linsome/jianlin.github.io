@@ -14,9 +14,15 @@ This project explores the power and limitations of **In-Context Learning (ICL)**
 - Few-shot and zero-shot in-context learning
 - Evaluation on SST-2 sentiment classification benchmark
 
+
+**Finding:**
+{% include figure.liquid path="assets/img/k-shot_vs_accuracy.png" title="K-shot vs Accuracy" class="img-fluid rounded z-depth-1" %}
+
+Under the zero-shot setting, the sentiment classification accuracy reached 82.5%. As more examples were added to the prompt context, the accuracy steadily increased. However, providing 16 examples (k=16) did not yield better performance compared to the k=8 setting, indicating a saturation point in the few-shot learning curve.
+
 **Timeline:** Spring 2026
 
 <div class="links">
   <a href="https://github.com/linsome/Prompting-with-In-Context-Learning-and-Evaluation" class="btn btn-sm z-depth-0" role="button" target="_blank">GitHub</a>
-  <a href="/assets/pdf/189G_HW2_Jian_Lin.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+  <a href="/assets/pdf/189G-HW2.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
 </div>
