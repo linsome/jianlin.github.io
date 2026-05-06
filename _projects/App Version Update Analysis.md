@@ -1,6 +1,6 @@
 ---
 layout: page
-title: App Version Update — Impact on User Engagement, Monetization & Retention
+title: App Version Update — User Analysis
 description: A multi-stage statistical analysis of a mobile app version update (S14) across four global markets, examining behavioral shifts, revenue attribution, and user retention.
 img: assets/img/221-pic.png
 importance: 3
