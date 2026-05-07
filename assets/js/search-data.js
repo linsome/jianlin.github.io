@@ -413,7 +413,7 @@ ninja.data = [{
           title: 'Does Classroom Size Affect Academic Achievement?',
           description: "A multilevel statistical analysis of Tennessee&#39;s Project STAR dataset, examining the causal effect of small class sizes on student SAT performance across kindergarten through 3rd grade.",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/5_project/";
+              window.location.href = "/jianlin.github.io/projects/207-project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
