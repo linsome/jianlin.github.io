@@ -30,5 +30,5 @@ Model size (capacity) significantly improves language understanding and text coh
 
 <div class="links">
   <a href="https://github.com/linsome/Training-and-Probing-a-Tiny-Transformer" class="btn btn-sm z-depth-0" role="button" target="_blank">GitHub</a>
-  <a href="/assets/pdf/189G-hw1-jian.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+  <a href="/jianlin.github.io/assets/pdf/189G-hw1-jian.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
 </div>

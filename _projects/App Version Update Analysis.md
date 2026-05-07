@@ -32,5 +32,5 @@ A one-size-fits-all update strategy is detrimental. We recommend a **bifurcated 
 
 <div class="links">
   <a href="https://github.com/Fei-p/Version-Update-Analysis" class="btn btn-sm z-depth-0" role="button" target="_blank">GitHub</a>
-  <a href="/assets/pdf/221-Project-report.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+  <a href="/jianlin.github.io/assets/pdf/221-Project-report.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
 </div>

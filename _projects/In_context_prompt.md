@@ -24,5 +24,5 @@ Under the zero-shot setting, the sentiment classification accuracy reached 82.5%
 
 <div class="links">
   <a href="https://github.com/linsome/Prompting-with-In-Context-Learning-and-Evaluation" class="btn btn-sm z-depth-0" role="button" target="_blank">GitHub</a>
-  <a href="/assets/pdf/189G-HW2.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+  <a href="/jianlin.github.io/assets/pdf/189G-HW2.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
 </div>
