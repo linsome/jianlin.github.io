@@ -1,9 +1,7 @@
 cv:
   name: Jian Lin
-  label: M.S. Statistics Student
-  email: xxlin@ucdavis.edu
   location: Davis, CA
-  summary: M.S. Statistics student at UC Davis, interested in Data Analysis, Big Data, and AI.
+  email: xxlin@ucdavis.edu
 
   social_networks:
     - network: LinkedIn
