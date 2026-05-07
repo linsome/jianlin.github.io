@@ -409,9 +409,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+          section: "News",},{id: "projects-does-classroom-size-affect-academic-achievement",
+          title: 'Does Classroom Size Affect Academic Achievement?',
+          description: "A multilevel statistical analysis of Tennessee&#39;s Project STAR dataset, examining the causal effect of small class sizes on student SAT performance across kindergarten through 3rd grade.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/5_project/";
             },},{id: "projects-project-6",
@@ -449,8 +449,8 @@ ninja.data = [{
           description: "Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/In_context_prompt/";
-            },},{id: "projects-training-and-probing-a-tiny-transformer",
-          title: 'Training-and-Probing-a-Tiny-Transformer',
+            },},{id: "projects-decoder-only-shakespeare-words-generator",
+          title: 'Decoder-only, Shakespeare words generator',
           description: "We build, train, and evaluate a minimal decoder-only Transformer from scratch using PyTorch. We will train this model on the Tiny Shakespeare dataset to generate Shakespeare-like text.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/Training-and-Probing-a-Tiny-Transformer/";
