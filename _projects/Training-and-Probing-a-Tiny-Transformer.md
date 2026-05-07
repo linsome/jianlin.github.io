@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Training-and-Probing-a-Tiny-Transformer
+title: Decoder-only, Shakespeare words generator
 description: We build, train, and evaluate a minimal decoder-only Transformer from scratch using PyTorch. We will train this model on the Tiny Shakespeare dataset to generate Shakespeare-like text.
 img: assets/img/training-loss-curve.png
 importance: 2

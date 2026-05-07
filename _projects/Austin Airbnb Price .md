@@ -5,6 +5,8 @@ description: Analyzing Airbnb listing price distributions in Austin, TX, predict
 img: assets/img/220.png
 importance: 4
 category: data
+github: https://github.com/linsome/Stats-220
+pdf: STA_220_Final_Report.pdf
 ---
 
 This project investigates the **pricing landscape of Airbnb listings in Austin, Texas**, combining listing features with neighborhood-level crime data to understand what drives price variation and how safety perception affects short-term rental markets.
@@ -31,7 +33,3 @@ The map below visualizes listing price density across Austin in 3D — zoom, rot
 
 **Timeline:** Winter 2026
 
-<div class="links">
-  <a href="https://github.com/linsome/Stats-220" class="btn btn-sm z-depth-0" role="button" target="_blank">GitHub</a>
-  <a href="/assets/pdf/STA_220_Final_Report.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-</div>

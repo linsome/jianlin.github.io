@@ -1,80 +1,34 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Does Classroom Size Affect Academic Achievement?
+description: A multilevel statistical analysis of Tennessee's Project STAR dataset, examining the causal effect of small class sizes on student SAT performance across kindergarten through 3rd grade.
+img: assets/img/207.png
+importance: 5
+category: data
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The [Tennessee Project STAR](https://dataverse.harvard.edu/dataverse/star) (Student/Teacher Achievement Ratio) study is a landmark four-year randomized controlled trial conducted by the Tennessee State Department of Education (1985–1990), tracking ~11,600 students across 79 public schools from Kindergarten through Grade 3. Students were randomly assigned to one of three class types: **Small** (13–17 students), **Regular** (22–25), or **Regular with Aide**.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Methods
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Exploratory Data Analysis** — Density plots and longitudinal score trends confirmed that the average SAT composite score (math, reading, listening, word skills) is more stable than any individual subject. Caterpillar plots revealed significant between-school heterogeneity, motivating a multilevel model.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Linear Mixed-Effects Model (Multilevel Model)** — To account for the nested structure of students within teachers within schools, we specified a mixed-effects model with student-level fixed effects (class type, gender, race, free-lunch status) and nested random intercepts at the teacher and school levels:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+$$Y_{ijk} = \beta_0 + \beta_1\text{ClassType} + \beta_2\text{Covariates} + u_i + v_{ij} + \epsilon_{ijk}$$
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Variance Decomposition & ICC Analysis** — ~27% of total score variance was attributable to the classroom and school hierarchy (School ICC: 15.6%, combined Teacher+School: 26.7%), validating the multilevel framework.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Robustness Checks** — Three nested specifications (OLS → Random Effects → Full Mixed Model) yielded consistent estimates of the small-class advantage (−5.4 to −5.7 points for regular vs. small), confirming the result is not sensitive to modeling assumptions.
 
-{% raw %}
+**Time Stability Analysis (Grades K–3)** — The small-class advantage was estimated separately for each grade, revealing a "fade-out" pattern: strongest in Grade 1 (−11.4 pts), gradually declining through Grade 3 (−4.0 pts), but remaining statistically significant throughout.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Key Findings
 
-{% endraw %}
+- Small classes outperform regular classes by approximately **5 points** on the composite SAT score in Kindergarten, even after controlling for teacher and school heterogeneity.
+- Socioeconomic status (free lunch eligibility) is the **strongest predictor** of achievement (16.7 pt gap), yet the small-class advantage holds for all subgroups.
+- The treatment effect is most pronounced in Grade 1 and gradually fades, consistent with the Project STAR literature.
+
+**Team:** Liang-Yin Tao, Jian Lin, Elliot Weisberg, Xiaoyi Liu  
+**Course:** STA 207 · Winter 2026  
+**Data:** [Harvard Dataverse — Project STAR](https://dataverse.harvard.edu/dataverse/star)
