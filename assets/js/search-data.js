@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/jianlin.github.io/blog/2026/GMM/";
+            window.location.href = "/jianlin.github.io/machine-learning/2026/05/16/GMM.html";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -67,7 +67,7 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/jianlin.github.io/books/the_godfather/";
+              window.location.href = "/jianlin.github.io/books/the_godfather.html";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -75,7 +75,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/jianlin.github.io/news/announcement_2/";
+              window.location.href = "/jianlin.github.io/news/announcement_2.html";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -83,57 +83,57 @@ ninja.data = [{
           title: 'Does Classroom Size Affect Academic Achievement?',
           description: "A multilevel statistical analysis of Tennessee&#39;s Project STAR dataset, examining the causal effect of small class sizes on student SAT performance across kindergarten through 3rd grade.",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/207-project/";
+              window.location.href = "/jianlin.github.io/projects/207-project.html";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/7_project/";
+              window.location.href = "/jianlin.github.io/projects/7_project.html";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/8_project/";
+              window.location.href = "/jianlin.github.io/projects/8_project.html";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/9_project/";
+              window.location.href = "/jianlin.github.io/projects/9_project.html";
             },},{id: "projects-app-version-update-user-analysis",
           title: 'App Version Update — User Analysis',
           description: "A multi-stage statistical analysis of a mobile app version update (S14) across four global markets, examining behavioral shifts, revenue attribution, and user retention.",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/App%20Version%20Update%20Analysis/";
+              window.location.href = "/jianlin.github.io/projects/App%20Version%20Update%20Analysis.html";
             },},{id: "projects-austin-airbnb-price-amp-crime-rate-correlation",
           title: 'Austin Airbnb Price &amp;amp; Crime Rate Correlation',
           description: "Analyzing Airbnb listing price distributions in Austin, TX, predicting price determinants, and exploring the relationship between neighborhood crime rates and listing prices.",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/Austin%20Airbnb%20Price%20/";
+              window.location.href = "/jianlin.github.io/projects/Austin%20Airbnb%20Price%20.html";
             },},{id: "projects-prompting-with-in-context-learning",
           title: 'Prompting with In-Context Learning',
           description: "Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/In_context_prompt/";
+              window.location.href = "/jianlin.github.io/projects/In_context_prompt.html";
             },},{id: "projects-decoder-only-shakespeare-words-generator",
           title: 'Decoder-only, Shakespeare words generator',
           description: "We build, train, and evaluate a minimal decoder-only Transformer from scratch using PyTorch. We will train this model on the Tiny Shakespeare dataset to generate Shakespeare-like text.",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/Training-and-Probing-a-Tiny-Transformer/";
+              window.location.href = "/jianlin.github.io/projects/Training-and-Probing-a-Tiny-Transformer.html";
             },},{id: "projects-text-to-sql-generator-via-qlora-fine-tuning",
           title: 'Text-to-SQL Generator via QLoRA Fine-Tuning',
           description: "Fine-tuning Qwen2.5-7B-Instruct with QLoRA to generate clean, executable SQL from natural language queries, achieving dramatic parameter efficiency with fewer than 1% trainable parameters.",
           section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/text-sql-LoRA/";
+              window.location.href = "/jianlin.github.io/projects/text-sql-LoRA.html";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/jianlin.github.io/teachings/data-science-fundamentals/";
+              window.location.href = "/jianlin.github.io/teachings/data-science-fundamentals.html";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/jianlin.github.io/teachings/introduction-to-machine-learning/";
+              window.location.href = "/jianlin.github.io/teachings/introduction-to-machine-learning.html";
             },},{
         id: 'social-cv',
         title: 'CV',
