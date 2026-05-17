@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/jianlin.github.io/cv/";
           },
-        },{id: "post-rolled-my-own-em-algorithm-for-gaussian-mixture-models",
+        },{id: "post-em-algorithm-for-gaussian-mixture-models",
         
-          title: "Rolled My Own EM Algorithm for Gaussian Mixture Models",
+          title: "EM Algorithm for Gaussian Mixture Models",
         
         description: "Implementing GMM from scratch reminded me of the mathematical elegance behind classical statistical models — and why EM algorithm is an optimization masterpiece.",
         section: "Posts",
