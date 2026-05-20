@@ -62,11 +62,6 @@ ninja.data = [{
           description: "A multilevel statistical analysis of Tennessee&#39;s Project STAR dataset, examining the causal effect of small class sizes on student SAT performance across kindergarten through 3rd grade.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/207-project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/jianlin.github.io/projects/7_project.html";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
@@ -97,6 +92,11 @@ ninja.data = [{
           description: "We build, train, and evaluate a minimal decoder-only Transformer from scratch using PyTorch. We will train this model on the Tiny Shakespeare dataset to generate Shakespeare-like text.",
           section: "Projects",handler: () => {
               window.location.href = "/jianlin.github.io/projects/Training-and-Probing-a-Tiny-Transformer.html";
+            },},{id: "projects-image-classification-amp-retrieval-with-clip",
+          title: 'Image Classification &amp;amp; Retrieval with CLIP',
+          description: "Zero-shot image classification and text-to-image retrieval using OpenAI&#39;s CLIP model, leveraging contrastive image-text embeddings for cross-modal similarity matching.",
+          section: "Projects",handler: () => {
+              window.location.href = "/jianlin.github.io/projects/clip.html";
             },},{id: "projects-text-to-sql-generator-via-qlora-fine-tuning",
           title: 'Text-to-SQL Generator via QLoRA Fine-Tuning',
           description: "Fine-tuning Qwen2.5-7B-Instruct with QLoRA to generate clean, executable SQL from natural language queries, achieving dramatic parameter efficiency with fewer than 1% trainable parameters.",
