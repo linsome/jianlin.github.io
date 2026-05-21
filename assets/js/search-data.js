@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/jianlin.github.io/cv/";
           },
-        },{id: "post-supervised-recurrent-neural-networks-and-the-gru-solution-to-vanishing-gradients",
+        },{id: "post-supervised-recurrent-networks-and-the-gru-to-vanishing-gradients",
         
-          title: "Supervised Recurrent Neural Networks and the GRU Solution to Vanishing Gradients",
+          title: "Supervised Recurrent Networks and the GRU to Vanishing Gradients",
         
         description: "A deep dive into how Recurrent Neural Networks handle sequential data",
         section: "Posts",
