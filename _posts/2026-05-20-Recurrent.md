@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Supervised Recurrent Neural Networks and the GRU Solution to Vanishing Gradients
+title: Supervised Recurrent Networks and the GRU to Vanishing Gradients
 date: 2026-05-20 12:00:00
 description: A deep dive into how Recurrent Neural Networks handle sequential data
 tags: deep-learning RNN GRU neural-networks
