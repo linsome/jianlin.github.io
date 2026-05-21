@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/jianlin.github.io/cv/";
           },
-        },{id: "post-em-algorithm-for-gaussian-mixture-models",
+        },{id: "post-supervised-recurrent-neural-networks-and-the-gru-solution-to-vanishing-gradients",
+        
+          title: "Supervised Recurrent Neural Networks and the GRU Solution to Vanishing Gradients",
+        
+        description: "A deep dive into how Recurrent Neural Networks handle sequential data",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/jianlin.github.io/machine-learning/2026/05/20/Recurrent.html";
+          
+        },
+      },{id: "post-em-algorithm-for-gaussian-mixture-models",
         
           title: "EM Algorithm for Gaussian Mixture Models",
         
