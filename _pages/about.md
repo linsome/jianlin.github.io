@@ -24,4 +24,6 @@ I am a Master's student in Statistics at the University of California, Davis. My
 
 I am passionate about helping organizations make better, data-driven decisions, and I am actively exploring how AI can be applied to generate meaningful insights from complex data. Over the past four years, I have accumulated hands-on industry experience through two full-time roles. At Falcon Media, I worked as a Data Analyst, analyzing user behavior data for utility applications. I also served as a Product Manager, where I led UX design initiatives for web products.
 
+I'm passionate about AI's transformative impact on industry and am actively seeking my role in this new era. I welcome all opportunities. May we all harness AI to fuel our dreams.
+
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/jian-lin-ab588315b/) or reach out via email at xxlin@ucdavis.edu.
