@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-supervised-recurrent-networks-and-the-gru-to-vanishing-gradients",
+        },{id: "post-unsupervised-learning-neural-networks-vs-classical-machine-learning",
+        
+          title: "Unsupervised Learning — Neural Networks vs. Classical Machine Learning",
+        
+        description: "A comparative review of unsupervised learning techniques across neural network and classical ML perspectives, from PCA and SOM to Autoencoders and Diffusion Models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/machine-learning/2026/05/25/Unsupervise.html";
+          
+        },
+      },{id: "post-supervised-recurrent-networks-and-the-gru-to-vanishing-gradients",
         
           title: "Supervised Recurrent Networks and the GRU to Vanishing Gradients",
         
