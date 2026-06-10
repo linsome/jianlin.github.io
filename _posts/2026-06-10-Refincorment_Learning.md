@@ -17,7 +17,7 @@ The reward-penalty rule governs how weights are updated based on feedback:
 
 $$\delta w_{mn} = \alpha \begin{cases} [y_m - \tanh(\beta b_m)]x_n & \text{for } r = +1 \\ -\delta[y_m + \tanh(\beta b_m)]x_n & \text{for } r = -1 \end{cases}$$
 
-{% include figure.liquid path="assets/img/rl.png" class="img-fluid rounded" %}
+{% include figure.liquid path="assets/img/rl1.png" class="img-fluid rounded" %}
 
 Here $$\delta$$ denotes the penalty coefficient. A smaller penalty yields closer convergence to the theoretical optimal reward. When the model performs correctly, a large reward is applied; when it errors, only a minimal correction is made. This design ensures that the network strongly follows positive feedback — analogous to reinforcement concepts in psychology. In the formula, $$\delta$$ adjusts the weights in the opposite direction of $$y_m$$.
 
@@ -53,7 +53,7 @@ The term $$r_{\tau+1} + O(\mathbf{s}_{\tau+1}) - O(\mathbf{s}_\tau)$$ is the **T
 
 Equation (11.17) requires knowing future states during the summation. To make this computationally feasible, mathematicians altered the summation order. Instead of computing forward from $$t=0$$ at the end of an episode, the **lookback mechanism** calculates incrementally at each current step by updating an eligibility trace of past steps.
 
-{% include figure.liquid path="assets/img/r2.png" class="img-fluid rounded" %}
+{% include figure.liquid path="assets/img/rl2.png" class="img-fluid rounded" %}
 
 This reformulation leads to the $$\text{TD}(\lambda)$$ weight update rule:
 
