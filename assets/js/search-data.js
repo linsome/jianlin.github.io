@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-unsupervised-learning-neural-networks-vs-classical-machine-learning",
+        },{id: "post-reinforcement-learning-from-reward-penalty-rules-to-q-learning",
+        
+          title: "Reinforcement Learning — From Reward-Penalty Rules to Q-Learning",
+        
+        description: "A structured walkthrough of core RL concepts, from the reward-penalty weight update rule to Temporal Difference learning, SARSA, and Q-learning.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/machine-learning/2026/05/28/Refincorment_Learning.html";
+          
+        },
+      },{id: "post-unsupervised-learning-neural-networks-vs-classical-machine-learning",
         
           title: "Unsupervised Learning — Neural Networks vs. Classical Machine Learning",
         
