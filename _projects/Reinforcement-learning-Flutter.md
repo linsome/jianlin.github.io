@@ -61,10 +61,10 @@ Structured UI patterns improved significantly:
 
 <div class="row">
   <div class="col-sm-6">
-    {% include figure.liquid path="assets/img/RL-checkpoint-400.png" class="img-fluid rounded" caption="Original Screenshot" %}
+    {% include figure.liquid path="assets/img/RL-checkpoint-400.png" class="img-fluid rounded" caption="comparison A" %}
   </div>
   <div class="col-sm-6">
-    {% include figure.liquid path="assets/img/rl-flutter-2.png" class="img-fluid rounded" caption="Generated Flutter UI" %}
+    {% include figure.liquid path="assets/img/rl-flutter-2.png" class="img-fluid rounded" caption="comparison B" %}
   </div>
 </div>
 
