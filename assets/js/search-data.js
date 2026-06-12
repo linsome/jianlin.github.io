@@ -95,11 +95,6 @@ ninja.data = [{
           description: "A multilevel statistical analysis of Tennessee&#39;s Project STAR dataset, examining the causal effect of small class sizes on student SAT performance across kindergarten through 3rd grade.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/207-project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
@@ -120,6 +115,11 @@ ninja.data = [{
           description: "Explore the power and limitations of In-Context Learning (ICL) with Large Language Models for sentiment analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/In_context_prompt.html";
+            },},{id: "projects-teaching-a-small-model-to-write-flutter-ui-code-with-rl",
+          title: 'Teaching a Small Model to Write Flutter UI Code with RL',
+          description: "A pipeline using GRPO + CLIP rewards to improve screenshot-to-Flutter code generation with Qwen3-VL-8B, trained on a single A100 for under $50.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Reinforcement-learning-Flutter.html";
             },},{id: "projects-decoder-only-shakespeare-words-generator",
           title: 'Decoder-only, Shakespeare words generator',
           description: "We build, train, and evaluate a minimal decoder-only Transformer from scratch using PyTorch. We will train this model on the Tiny Shakespeare dataset to generate Shakespeare-like text.",
