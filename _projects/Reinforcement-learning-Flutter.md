@@ -3,7 +3,7 @@ layout: page
 title: Teaching a Small Model to Write Flutter UI Code with RL
 description: A pipeline using GRPO + CLIP rewards to improve screenshot-to-Flutter code generation with Qwen3-VL-8B, trained on a single A100 for under $50.
 img: assets/img/rl-flutter-reward.png
-importance: 1
+importance: 2
 category: AI
 github: https://huggingface.co/DeliciousGuy/flutter-rl-grpo
 ---
