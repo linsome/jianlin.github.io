@@ -6,7 +6,7 @@ subtitle: M.S. Statistics, University of California, Davis
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: selfie2.jpg
   image_circular: false
   more_info: >
     <p>University of California, Davis</p>
