@@ -4,7 +4,7 @@ title: UC Davis Course Advisor
 description: A RAG-powered bilingual course advisor for UC Davis students, featuring dual-path retrieval, prerequisite DAGs, and Claude-generated recommendations.
 img: assets/img/course-advisor-onboarding.png
 importance: 1
-category: work
+category: AI
 github: https://github.com/linsome/ucd-course-advisor
 ---
 
