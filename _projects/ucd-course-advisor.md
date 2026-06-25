@@ -57,9 +57,9 @@ Courses requiring instructor consent are automatically bumped one tier higher.
 
 ## What It Looks Like
 
-{% include figure.liquid path="assets/img/blog/course-advisor-onboarding.png" class="img-fluid rounded" caption="Onboarding: students enter their major, completed courses, and level" %}
+{% include figure.liquid path="assets/img/course-advisor-onboarding.png" class="img-fluid rounded" caption="Onboarding: students enter their major, completed courses, and level" %}
 
-{% include figure.liquid path="assets/img/blog/course-advisor-response.png" class="img-fluid rounded" caption="A structured response for a Statistics major asking about AI courses" %}
+{% include figure.liquid path="assets/img/course-advisor-response.png" class="img-fluid rounded" caption="A structured response for a Statistics major asking about AI courses" %}
 
 ---
 
