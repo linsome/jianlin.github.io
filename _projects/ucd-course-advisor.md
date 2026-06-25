@@ -8,7 +8,7 @@ category: AI
 github: https://github.com/linsome/ucd-course-advisor
 ---
 
-**Live demo:** [ucd-course-advisor.fly.dev](https://ucd-course-advisor.fly.dev)
+**Live demo:** [ucd-course-advisor.fly.dev](https://ucd-course-advisor.fly.dev) [cold start: refresh after 2min if Error:502]
 
 A RAG-powered course advisor that lets UC Davis students ask questions in **English or Chinese** and get personalized, structured course recommendations — aware of prerequisites, student level, and completed coursework.
 
