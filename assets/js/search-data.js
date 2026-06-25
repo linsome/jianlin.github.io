@@ -95,11 +95,6 @@ ninja.data = [{
           description: "A multilevel statistical analysis of Tennessee&#39;s Project STAR dataset, examining the causal effect of small class sizes on student SAT performance across kindergarten through 3rd grade.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/207-project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
             },},{id: "projects-app-version-update-user-analysis",
           title: 'App Version Update — User Analysis',
           description: "A multi-stage statistical analysis of a mobile app version update (S14) across four global markets, examining behavioral shifts, revenue attribution, and user retention.",
@@ -135,6 +130,11 @@ ninja.data = [{
           description: "Fine-tuning Qwen2.5-7B-Instruct with QLoRA to generate clean, executable SQL from natural language queries, achieving dramatic parameter efficiency with fewer than 1% trainable parameters.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/text-sql-LoRA.html";
+            },},{id: "projects-building-a-rag-powered-course-advisor-for-uc-davis-students",
+          title: 'Building a RAG-Powered Course Advisor for UC Davis Students',
+          description: "How I built a bilingual course recommendation system using dual-path retrieval, prerequisite DAGs, and Claude — deployed live on Fly.io.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ucd-course-advisor.html";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
