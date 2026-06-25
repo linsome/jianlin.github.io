@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: page
 title: Building a RAG-Powered Course Advisor for UC Davis Students
-date: 2026-06-01 12:00:00
 description: How I built a bilingual course recommendation system using dual-path retrieval, prerequisite DAGs, and Claude — deployed live on Fly.io.
 img: assets/img/course-advisor-onboarding.png
 importance: 1
