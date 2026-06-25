@@ -130,9 +130,9 @@ ninja.data = [{
           description: "Fine-tuning Qwen2.5-7B-Instruct with QLoRA to generate clean, executable SQL from natural language queries, achieving dramatic parameter efficiency with fewer than 1% trainable parameters.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/text-sql-LoRA.html";
-            },},{id: "projects-building-a-rag-powered-course-advisor-for-uc-davis-students",
-          title: 'Building a RAG-Powered Course Advisor for UC Davis Students',
-          description: "How I built a bilingual course recommendation system using dual-path retrieval, prerequisite DAGs, and Claude — deployed live on Fly.io.",
+            },},{id: "projects-uc-davis-course-advisor",
+          title: 'UC Davis Course Advisor',
+          description: "A RAG-powered bilingual course advisor for UC Davis students, featuring dual-path retrieval, prerequisite DAGs, and Claude-generated recommendations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ucd-course-advisor.html";
             },},{id: "teachings-data-science-fundamentals",
